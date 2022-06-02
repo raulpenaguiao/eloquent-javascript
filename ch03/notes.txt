@@ -1,0 +1,22 @@
+Functions
+Programming languages do not have a lot of words at their disposal
+A good programmer manages the art of creating useful vocabulary to talk with the computer
+
+
+The bindings that are relevant to a function are the ones that are in the *scope* around it
+If two bindings have the same name, the one in the innermost scope is the one that is used
+
+Functions can be declared in three different ways: let _ = function() FUNCTION AS VALUES, function _() DECLARATION NOTATION and (params) => function  ARROW NOTATION
+
+
+The call stack does a DFS in all the functions.
+
+Functions can be called with the wrong number of arguments.
+If with less, the remaning arguments will have value undefined, if with more these bindings will simply be ignored.
+
+Closure refers to the environment of functions when these are created.
+This environment is the one that will be relevant when a function is called, even if the relevant bindings have changed value in the meantime.
+
+
+
+Pure functions and functions with side effects.

@@ -1,0 +1,28 @@
+Data structures: Objects and arrays
+
+The previous data types are atoms, but we are building more complex data which needs to be composed of these atoms.
+This is done with *arrays* and *objects*
+
+
+An object is made of properties
+An array is an ordered list of properties
+
+
+Mutability: with objects and arrays, one has to distinguish when two bindings are refering to the same object or to two different objects with the same properties.
+This is important because when we change one, we are also changing the other one.
+
+In arrays there are a couple of fundamental methods: 
+ - shift() pops the first element
+ - unshift() puts an element in the beginning
+ - push() puts an element in the end
+
+
+The Math object is a bag of number-related utility functions (like min, log and sqrt)
+This is an example of an object as a *namespace*
+
+Deconstruction 
+If we write let [a, b] = something that is an array, we are implicitly declaring values for a, b.
+we can do the same for objects
+
+
+
