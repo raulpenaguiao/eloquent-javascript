@@ -1,0 +1,20 @@
+Javascript is weakly typed
+Very flexible and goes out of its way to undestand what the programer meant
+this is ERROR PRONE
+
+Common errors: confuse numbers with strings
+
+
+Types to be aware of:
+ - Numbers
+ - Strings
+ - Booleans
+ - undefined and null
+
+Operations:
+ - Arithmetic (+, -, *, /, %)
+ - String (+ for concatenation)
+ - Comparison ( ==, <, >, <=, >=, ===)
+ - Logical ( &&, || and !)
+ - Ternary ( ? : )
+

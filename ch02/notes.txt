@@ -1,0 +1,14 @@
+Bindings are declared with "let", "var" or "const"
+Declaration and attribution are different operations
+
+Special bindings have values of *functions*
+Example of function is console.log()
+
+Control flow is the way the computer goes over your code
+If - Then - Else
+While and For loops
+The "break" keyword
+switch cases
+
+CamelCase in JavaScript
+
